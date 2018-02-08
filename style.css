@@ -1,0 +1,59 @@
+.container{
+ text-align:center;
+ display:flex;
+}
+
+#characterOne{
+ float:left;
+
+}
+
+.text{
+
+  color:black;
+  display:inline-block;
+  float:right;
+}
+#para{
+     font-size : 30px;
+}
+.image_arrow{
+    position:absolute;
+    margin-left:27%;
+
+}
+button{
+    display:none;
+    width:50%;
+    height:20px;
+    border:1px solid black;
+}
+#arrow{
+  cursor:pointer;
+  margin-top:100px;
+
+
+
+}
+#list_{
+text-align: center;
+display:none;
+}
+#list_ input{
+    height:50px;
+    border-radius:10px;
+    width:300px;
+    border:1px solid black;
+}
+ul {
+    list-style: none;
+}
+
+input[type = 'submit']{
+    display:inherit;
+    margin-top:10px;
+}
+
+body{
+    background:#edf9ff;
+}
